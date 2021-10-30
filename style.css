@@ -1,0 +1,139 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+
+* {
+    font-family: "Red Hat Display" , snas-serif;
+}
+
+body {
+    background-image: url("images/desktop.svg");
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%) !important;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 380px !important;
+    margin: 100px auto !important;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.text {
+    padding: 10px 60px !important;
+    margin-bottom: 20px;
+}
+
+
+.text *{
+    margin: 0px auto;
+}
+
+#head *, .btn, #cancel {
+    margin: 10px auto;
+}
+
+h1 {
+    font-size: 20px !important;
+    font-weight: 900 !important;
+    margin-top: 20px !important;
+}
+
+#box {
+    background-color: hsl(225, 100%, 98%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.col-3, #box p{
+    padding-top: 10px !important;
+    margin: auto auto;
+}
+
+#change {
+    margin: auto auto;
+    font-size: 12px;
+    color: hsl(245, 100%, 70%);
+    font-weight: bold;
+}
+
+#change:hover{
+    color: hsl(224, 23%, 55%);
+    transition: 0.3s ease;
+}
+
+p{
+    font-size: 15px;
+}
+
+.btn {
+    background-color: hsl(245, 75%, 52%) !important;
+    color: white !important;
+    border-radius: 10px !important;
+}
+.btn:hover {
+    background-color: hsl(251, 68%, 68%) !important;
+    transition: 0.3s ease;
+}
+
+#cancel, #subtitle {
+    text-decoration: none;
+    color: #848b97;
+}
+
+#cancel:hover{
+    color: black;
+    font-weight: bold;
+    transition: 0.3s ease;
+
+}
+
+img.col {
+    height: 50px !important;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 425px){
+    body {
+        background-image: url("images/mobile.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #box p{
+        padding-top: 0px !important;
+    }
+    #mobile {
+        padding-top: 10px !important;
+    }
+    .btn, #cancel {
+        font-size: 15px !important;
+    }
+
+    .btn {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .container {
+        max-width: 80%;
+    }
+
+    .text {
+        padding: 5px 30px !important;
+        margin-bottom: 10px;
+    }
+
+    #head h1, #subtitle, #box, .btn, #cancel {
+        margin-top: 20px !important;
+    }
+
+    #cancel {
+        margin-bottom: 10px !important;
+    }
+}
