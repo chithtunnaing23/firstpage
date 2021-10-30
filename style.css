@@ -38,10 +38,10 @@ body {
     margin: 10px auto;
 }
 
-h1 {
-    font-size: 20px !important;
-    font-weight: 900 !important;
-    margin-top: 20px !important;
+#order {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 20px;
 }
 
 #box {
@@ -51,7 +51,7 @@ h1 {
 }
 
 .col-3, #box p{
-    padding-top: 10px !important;
+    padding-top: 10px;
     margin: auto auto;
 }
 
@@ -71,13 +71,14 @@ p{
     font-size: 15px;
 }
 
-.btn {
-    background-color: hsl(245, 75%, 52%) !important;
-    color: white !important;
-    border-radius: 10px !important;
+.btN {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 0px;
 }
-.btn:hover {
-    background-color: hsl(251, 68%, 68%) !important;
+.btN:hover {
+    background-color: hsl(251, 68%, 68%);
     transition: 0.3s ease;
 }
 
@@ -111,13 +112,13 @@ img.col {
     #mobile {
         padding-top: 10px !important;
     }
-    .btn, #cancel {
-        font-size: 15px !important;
+    .btN, #cancel {
+        font-size: 15px;
     }
 
-    .btn {
-        padding-top: 10px !important;
-        padding-bottom: 10px !important;
+    .btN {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .container {
@@ -129,11 +130,17 @@ img.col {
         margin-bottom: 10px;
     }
 
-    #head h1, #subtitle, #box, .btn, #cancel {
-        margin-top: 20px !important;
+    #order, #subtitle, #box, #btn, #cancel {
+        margin-top: 20px;
     }
 
     #cancel {
-        margin-bottom: 10px !important;
+        margin-bottom: 20px;
+    }
+    #order{
+        margin-bottom: 20px;
+    }
+    .container {
+        margin: 80px auto !important;
     }
 }
